@@ -1,14 +1,9 @@
 ## Catbot Setup
 
-Setup scripts for cat-bots (cathook navbots)
-For more information, visit [Cathook](https://github.com/nullworks/cathook/)
+`git clone [https://github.com/evoee/catbot-setup.git]`
 
-After the install script finished successfully, navmesh files have to be moved into your tf2 maps directory.  
-They can be found [here](https://github.com/nullworks/catbot-database).
-
-Due to steam recently adding Recaptcha v2, you must provide accounts to the account-generator. More information in [this](https://t.me/sag_bot) Channel.
-
-For support, visit us in [this](https://t.me/nullworks) channel.
+Next you will have to edit the text document called accounts.txt in your catbot-setup folder and put the bots accounts in this format:
+username:password
 
 ## Required Dependencies
 Ubuntu/Debian
