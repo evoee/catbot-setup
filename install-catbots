@@ -121,7 +121,7 @@ fi
 
 sudo sed -i 's/^restricted-network yes/# restricted-network yes/g' /etc/firejail/firejail.config
 
-echo "Installation has finished. Please ensure that all navmeshes are inside your maps folder (see https://github.com/nullworks/cathook/catbot-database)."
+echo "Installation has finished. Please ensure that all navmeshes are inside your maps folder (see https://github.com/explowz/catbot-database)."
 echo
 echo "The web panel can be started with ./start"
 echo
