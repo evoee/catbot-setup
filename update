@@ -53,7 +53,7 @@ bash update.sh
 popd
 
 pushd cathook-ipc-web-panel
-git remote set-url origin https://github.com/nullworks/cathook-ipc-web-panel
+git remote set-url origin https://github.com/rosneburgerworks/rosnehook-ipc-web-panel
 bash update.sh
 popd
 
