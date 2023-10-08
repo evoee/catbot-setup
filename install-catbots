@@ -92,7 +92,7 @@ if [ ! -d "./just-disable-vac" ]; then
 fi
 
 if [ ! -d "./cathook-ipc-server" ]; then
-    git clone --recursive https://github.com/qtTF2/cathook-ipc-server # b4 any fuck up by ch devs
+    git clone --recursive https://github.com/evoee/cathook-ipc-server
     pushd cathook-ipc-server
     ./install.sh
     popd
