@@ -94,14 +94,14 @@ if [ ! -d "./just-disable-vac" ]; then
 fi
 
 if [ ! -d "./cathook-ipc-server" ]; then
-    git clone --recursive https://github.com/nullworks/cathook-ipc-server
+    git clone --recursive https://github.com/rosneburgerworks/rosnehook-ipc-server
     pushd cathook-ipc-server
     ./install.sh
     popd
 fi
 
 if [ ! -d "./cathook-ipc-web-panel" ]; then
-    git clone --recursive https://github.com/nullworks/cathook-ipc-web-panel
+    git clone --recursive https://github.com/rosneburgerworks/rosnehook-ipc-web-panel
     pushd cathook-ipc-web-panel
     ./update.sh
     popd
