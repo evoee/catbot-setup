@@ -21,7 +21,7 @@ function updateRepoURL() {
 pushd cathook
 
 GIT_REMOTE=$(git config --get remote.origin.url || echo unknown)
-if [ "$GIT_REMOTE" == "https://github.com/nullworks/cathook.git" ] || [ "$GIT_REMOTE" == "https://github.com/nullworks/cathook" ]; then
+if [ "$GIT_REMOTE" == "https://github.com/explowz/cathook.git" ] || [ "$GIT_REMOTE" == "https://github.com/explowz/cathook" ]; then
     updateRepoURL
 fi
 
