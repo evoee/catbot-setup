@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
-read -p "Press ENTER to continue"
+echo "Do you want to uninstall catbots?"
+read -p "Press ENTER to confirm."
 
-./remove-legacy
-
-rm -rf ./account-generator
 rm -rf ./build
 rm -rf ./cathook
 rm -rf ./cathook-ipc-server
 rm -rf ./cathook-ipc-web-panel
 rm -rf ./just-disable-vac
 rm -rf ./user_instances
-rm -rf ./catbot-database
 sudo rm -rf /opt/cathook/ipc
 sudo rm /opt/cathook/bin/libcathook-textmode.so
+
+echo "Uninstalled."
